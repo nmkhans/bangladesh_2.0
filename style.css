@@ -249,3 +249,47 @@ img {
 .qoatation__area__content .author__desig {
   color: rgba(14, 14, 14, 0.6) !important;
 }
+
+.opinion__table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.opinion__table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.opinion__table table th {
+
+}
+
+.opinion__table table, td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-weight: 500;
+}
+
+.opinion__table table thead tr {
+  background-color: var(--secondary-color);
+  text-align: left;
+  
+}
+
+th {
+  font-size: 18px;
+}
+
+th, td {
+  padding: 20px;
+}
+
+td select {
+  background-color: var(--secondary-color);
+  border: 1px solid rgba(14, 14, 14, 1);
+  font-weight: 500;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
