@@ -250,6 +250,8 @@ img {
   color: rgba(14, 14, 14, 0.6) !important;
 }
 
+/* ----- piller area css ----- */
+
 .opinion__table {
   margin-top: 20px;
   background-color: white;
@@ -292,4 +294,74 @@ td select {
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
+}
+
+/* ----- piller area css ----- */
+
+.news__content h2 {
+  margin-bottom: 20px;
+}
+
+.news__content > p {
+  margin-bottom: 30px;
+}
+
+.news__card {
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.news__card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.news__img {
+  width: 40%;
+}
+
+.news__img img {
+  border-radius: 20px;
+}
+
+.news__article {
+  width: 60%;
+}
+
+.news__article__title h3 {
+  font-size: 28px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 10px;
+}
+
+.news__article__img img {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.news__article__date {
+  display: flex;
+  column-gap: 10px;
+}
+
+.news__article__date p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.new__article__content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.news__article__btn button {
+  padding: 10px 20px;
 }
