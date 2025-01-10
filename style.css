@@ -48,6 +48,8 @@ img {
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 8px;
+  border: none;
+  outline: none;
 }
 
 .outline__btn {
@@ -94,5 +96,42 @@ img {
 /* ----- banner area css ----- */
 
 .banner__area {
-  padding: 20px 40px;
+  padding: 20px 0 40px 0;
+}
+
+.banner__area__content {
+  background-color: var(--secondary-color);
+  padding: 80px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.banner__description {
+  width: 60%;
+}
+
+.banner__image {
+  width: 40%;
+}
+
+.banner__description h3 {
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.banner__description h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.banner__btn {
+  padding: 15px 30px;
+}
+
+.banner__image img {
+  width: 100%;
 }
