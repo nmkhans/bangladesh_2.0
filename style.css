@@ -45,6 +45,7 @@ img {
   background-color: var(--primary-color);
   color: white;
   font-size: 16px;
+  font-weight: 600;
   text-transform: capitalize;
   border-radius: 8px;
 }
@@ -54,15 +55,44 @@ img {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   font-size: 16px;
+  font-weight: 600;
   text-transform: capitalize;
   border-radius: 8px;
 }
 
 .container {
-  width: 1280px;
+  width: 80%;
   margin: 0 auto;
 }
 
 .section__gap {
   padding: 40px 0;
+}
+
+/* ----- header area css ----- */
+
+.header__area {
+  padding: 20px 0;
+}
+
+.header__area__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.header__btn {
+  padding: 15px 30px;
+}
+
+/* ----- banner area css ----- */
+
+.banner__area {
+  padding: 20px 40px;
 }
