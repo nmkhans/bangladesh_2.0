@@ -159,6 +159,8 @@ img {
   margin-bottom: 10px;
 }
 
+/* ----- vision area css ----- */
+
 .vision__area__title h2 {
   margin-bottom: 20px;
 }
@@ -214,4 +216,36 @@ img {
 
 .vision__card p {
   margin-bottom: 20px;
+}
+
+/* ----- quoation area css ----- */
+
+.quoatation__area {
+  padding-bottom: 40px;
+}
+
+.qoatation__area__content {
+  padding: 22px 22px 32px 22px;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.main__quoat {
+  background: url("./images/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 23px;
+}
+
+.qoatation__area__content p {
+  margin-bottom: 10px;
+}
+
+.qoatation__area__content h4 {
+  margin-bottom: 5px;
+}
+
+.qoatation__area__content .author__desig {
+  color: rgba(14, 14, 14, 0.6) !important;
 }
