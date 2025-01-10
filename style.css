@@ -24,14 +24,14 @@ img {
 /* ----- common css ----- */
 
 .section__title {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: var(--title-color);
 }
 
 .sub__title {
   font-size: 20px;
-  font-weight: 20px;
+  font-weight: bold;
   color: var(--subtitle-color);
 }
 
@@ -134,4 +134,27 @@ img {
 
 .banner__image img {
   width: 100%;
+}
+
+/* ----- piller area css ----- */
+
+.piller__cards__display {
+  margin-top: 25px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.piller__card {
+  padding: 24px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.piller__card img {
+  margin-bottom: 20px;
+}
+
+.piller__card h4 {
+  margin-bottom: 10px;
 }
