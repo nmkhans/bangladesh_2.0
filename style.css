@@ -6,7 +6,11 @@
 }
 
 :root {
-
+  --primary-color: #006A50;
+  --secondary-color: #C6E4D6;
+  --title-color: #0E0E0E;
+  --subtitle-color: rgba(14, 14, 14, 0.8);
+  --paragraph-color: rgba(14, 14, 14, 0.7);
 }
 
 body {
@@ -15,4 +19,50 @@ body {
 
 img {
   max-width: 100%;
+}
+
+/* ----- common css ----- */
+
+.section__title {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.sub__title {
+  font-size: 20px;
+  font-weight: 20px;
+  color: var(--subtitle-color);
+}
+
+.section__paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--paragraph-color);
+}
+
+.primary__btn {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+
+.outline__btn {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.section__gap {
+  padding: 40px 0;
 }
