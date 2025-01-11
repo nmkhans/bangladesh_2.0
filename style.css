@@ -419,3 +419,74 @@ td select {
   padding: 15px 30px;
   margin-top: 20px;
 }
+
+/* ----- newsletter area css ----- */
+
+.newsletter__content {
+  background: var(--secondary-color);
+  padding: 60px 80px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.newsletter__content h3 {
+  font-size: 30px;
+  color: #0e0e0e;
+  margin-bottom: 15px;
+}
+
+.newsletter__content p {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.newsletter__form {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.newsletter__form form {
+  display: flex;
+}
+
+.newsletter__form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  padding: 20px;
+}
+
+.newsletter__form button {
+  padding: 15px 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.footer {
+  background: #fff;
+}
+
+.footer__content {
+  text-align: center;
+}
+
+.footer__content h3 {
+  font-size: 28px;
+  color: var(--title-color);
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+  padding-bottom: 20px;
+}
+
+.footer__content hr {
+  background-color: rgba(14, 14, 14, 0.1);
+}
+
+.footer__icon {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
