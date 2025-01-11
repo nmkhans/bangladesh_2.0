@@ -43,13 +43,21 @@ img {
 
 .primary__btn {
   background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   color: white;
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 8px;
-  border: none;
   outline: none;
+  transition: .5s;
+}
+
+.primary__btn:hover {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .outline__btn {
@@ -60,6 +68,19 @@ img {
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.outline__btn:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 8px;
+  outline: none;
+  transition: .5s;
 }
 
 .container {
@@ -178,12 +199,20 @@ img {
 
 .vision__card:nth-child(1) {
   background: rgba(84, 144, 245, 0.2);
+  
 }
 
 .vision__card:nth-child(1) button {
   background: rgba(84, 144, 245, 1) !important
   ;
   padding: 10px 20px;
+  border: 1px solid rgba(84, 144, 245, 0.2) !important;
+}
+
+.vision__card:nth-child(1) button:hover {
+  background-color: white !important;
+  border: 1px solid rgba(84, 144, 245, 1) !important;
+  color: rgba(84, 144, 245, 1) !important;
 }
 
 .vision__card:nth-child(2) {
@@ -194,6 +223,13 @@ img {
   background: rgba(9, 161, 92, 1) !important
   ;
   padding: 10px 20px;
+  border: 1px solid rgba(9, 161, 92, 1) !important;
+}
+
+.vision__card:nth-child(2) button:hover {
+  background: white !important;
+  border: 1px solid rgba(9, 161, 92, 1) !important;
+  color: #006a50 !important;
 }
 
 .vision__card:nth-child(3) {
@@ -204,6 +240,13 @@ img {
   background: rgba(255, 194, 57, 1) !important
   ;
   padding: 10px 20px;
+  border: 1px solid rgba(255, 194, 57, 1) !important;
+}
+
+.vision__card:nth-child(3) button:hover {
+  background-color: white !important;
+  border: 1px solid rgba(255, 194, 57, 1) !important;
+  color: rgba(255, 194, 57, 1) !important;
 }
 
 .vision__card img {
@@ -385,6 +428,11 @@ td select {
   border: 1px solid rgba(14, 14, 14, 0.15);
   text-align: center;
   width: 25%;
+  transition: .5s;
+}
+
+.donation:hover {
+  background-color: var(--secondary-color);
 }
 
 .donation h1 {
