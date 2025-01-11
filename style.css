@@ -250,7 +250,7 @@ img {
   color: rgba(14, 14, 14, 0.6) !important;
 }
 
-/* ----- piller area css ----- */
+/* ----- opinion area css ----- */
 
 .opinion__table {
   margin-top: 20px;
@@ -264,11 +264,8 @@ img {
   width: 100%;
 }
 
-.opinion__table table th {
-
-}
-
-.opinion__table table, td {
+.opinion__table table,
+td {
   border: 1px solid rgba(14, 14, 14, 0.15);
   font-weight: 500;
 }
@@ -276,14 +273,14 @@ img {
 .opinion__table table thead tr {
   background-color: var(--secondary-color);
   text-align: left;
-  
 }
 
 th {
   font-size: 18px;
 }
 
-th, td {
+th,
+td {
   padding: 20px;
 }
 
@@ -296,7 +293,7 @@ td select {
   border-radius: 5px;
 }
 
-/* ----- piller area css ----- */
+/* ----- news area css ----- */
 
 .news__content h2 {
   margin-bottom: 20px;
@@ -364,4 +361,61 @@ td select {
 
 .news__article__btn button {
   padding: 10px 20px;
+}
+
+.donation__upper {
+  text-align: center;
+}
+
+.donation__upper h2 {
+  margin-bottom: 20px;
+}
+
+.donation__option {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+
+.donation {
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  text-align: center;
+  width: 25%;
+}
+
+.donation h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.donation:nth-child(2) {
+  background-color: var(--secondary-color);
+}
+
+.donation__form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.donation__form input {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.3);
+}
+
+.donation__form button {
+  padding: 15px 30px;
+  margin-top: 20px;
 }
